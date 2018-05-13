@@ -396,72 +396,62 @@
             </div>
             <!-- sağ taraf -->
             <div class="col-lg-4">
-              <div class="card card-profile">
-                <div class="card-header" style="background-image: url(demo/photos/eberhard-grossgasteiger-311213-500.jpg);"></div>
-                <div class="card-body text-center">
-                  <img class="card-profile-img" src="demo/faces/male/16.jpg">
-                  <h3 class="mb-3">Peter Richards</h3>
-                  <p class="mb-4">
-                    Big belly rude boy, million dollar hustler. Unemployed.
-                  </p>
-                  <button class="btn btn-outline-primary btn-sm">
-                    <span class="fa fa-twitter"></span> Follow
-                  </button>
-                </div>
-              </div>
-              <div class="card">
+              <div class="card">                
+                <div class="card-header">
+                  <h3 class="card-title">Kategoriler</h3>
+                </div>                
                 <div class="card-body">
-                  <div class="media">
-                    <span class="avatar avatar-xxl mr-5" style="background-image: url(demo/faces/male/21.jpg)"></span>
-                    <div class="media-body">
-                      <h4 class="m-0">Juan Hernandez</h4>
-                      <p class="text-muted mb-0">Webdeveloper</p>
-                      <ul class="social-links list-inline mb-0 mt-2">
-                        <li class="list-inline-item">
-                          <a href="javascript:void(0)" title="Facebook" data-toggle="tooltip"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="javascript:void(0)" title="Twitter" data-toggle="tooltip"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="javascript:void(0)" title="1234567890" data-toggle="tooltip"><i class="fa fa-phone"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="javascript:void(0)" title="@skypename" data-toggle="tooltip"><i class="fa fa-skype"></i></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  <ol type="1">
+                    <li><a href="">İstekler</a></li>
+                    <li><a href="">Hata Bildirimi</a>
+                       <ul type="square">
+                         <li><a href="">İkinci öğenin bir öğesi...</a>
+                         <li><a href="">İkinci öğenin başka bir öğesi...</a>
+                       </ul>
+                    </li>
+                    <li><a href="">Üçüncü öğe...</a></li>
+                  </ol>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">My Profile</h3>
+                  <h3 class="card-title">Yeni Hata Kaydı</h3>
                 </div>
                 <div class="card-body">
                   <form>
                     <div class="row">
-                      <div class="col-auto">
-                        <span class="avatar avatar-xl" style="background-image: url(demo/faces/female/9.jpg)"></span>
-                      </div>
                       <div class="col">
                         <div class="form-group">
-                          <label class="form-label">Email-Address</label>
-                          <input class="form-control" placeholder="your-email@domain.com"/>
+                          <label class="form-label">Başlık</label>
+                          <input class="form-control" placeholder="Hata başlığı"/>
                         </div>
                       </div>
                     </div>
                     <div class="form-group">
-                      <label class="form-label">Bio</label>
-                      <textarea class="form-control" rows="5">Big belly rude boy, million dollar hustler. Unemployed.</textarea>
+                      <label class="form-label">Hata Açıklaması</label>
+                      <textarea class="form-control" rows="5">Hata ile ilgili detaylı açıklama giriniz.</textarea>
                     </div>
                     <div class="form-group">
-                      <label class="form-label">Email-Address</label>
-                      <input class="form-control" placeholder="your-email@domain.com"/>
+                          <label class="form-label">Sürüm</label>
+                          <select class="form-control custom-select">
+                            <option value="">1.0</option>
+                            <option value="">2.0</option>
+                          </select>
                     </div>
                     <div class="form-group">
-                      <label class="form-label">Password</label>
-                      <input type="password" class="form-control" value="password"/>
+                          <label class="form-label">Kategoriler</label>
+                          <select class="form-control custom-select">
+                            <option value="">İstekler</option>
+                            <option value="">Hata Bildirimi</option>
+                          </select>
+                    </div>
+                    <div class="form-group">
+                          <label class="form-label">Önem</label>
+                          <select class="form-control custom-select">
+                            <option value=""><i class="fa fa-arrow-down"></i>Düşük</option>
+                            <option value=""><i class="fa fa-arrow-left">Orta</option>
+                            <option value=""><i class="fa fa-arrow-up">Yüksek</option>
+                          </select>
                     </div>
                     <div class="form-footer">
                       <button class="btn btn-primary btn-block">Save</button>
